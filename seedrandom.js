@@ -1,4 +1,4 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const arrayContains = (arr, element) => arr.includes(element);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
 const appName = getAppName(channel);
