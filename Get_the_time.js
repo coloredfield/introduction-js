@@ -1,3 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const channel = getChannel(computedAppVersion);
-const lastElement = arr => arr[arr.length - 1];
+const randomString = () => Math.random().toString(36).slice(2);
+const merge = Object.assign({}, obj1, obj2);
+const isEmptyArray = arr => !arr.length;
