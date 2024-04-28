@@ -1,4 +1,3 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const merge = [...new Set([...a, ...b])];
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
