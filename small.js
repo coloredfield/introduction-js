@@ -1,3 +1,4 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-console.log("1 && 2 = "+(1 && 2));
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const flattenedArray = arr => [].concat(...arr);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const currentDate = () => new Date().toLocaleDateString('en-US');
