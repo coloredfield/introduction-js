@@ -1,3 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const merge = [...new Set([...a, ...b])];
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
