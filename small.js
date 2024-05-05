@@ -1,3 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log(+"1" +  "1" + "2");
+const isEven = (num) => num % 2 === 0;
+const allResults = await Promise.all(items.map(async (item) => {}));
