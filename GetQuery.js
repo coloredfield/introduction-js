@@ -1,3 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+var c = new Counter(); c.add(); c.add(); c.add();
+console.log(false == '0');
