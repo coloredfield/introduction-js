@@ -1,2 +1,2 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const merge = Object.assign({}, obj1, obj2);
+const removeDuplicates = (arr) => [...new Set(arr)];
