@@ -1,3 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-var c = new Counter(); c.add(); c.add(); c.add();
-console.log(+"1" +  "1" + "2");
+const updated = numbers.filter(element => element > 6);
+const uniqueArr = (arr) => [...new Set(arr)];
+var arr3 = "jones".split('');
