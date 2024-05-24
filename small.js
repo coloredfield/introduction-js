@@ -1,3 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-const uniqueArr = (arr) => [...new Set(arr)];
-var arr3 = "jones".split('');
+const removeDuplicates = (arr) => [...new Set(arr)];
+const randomString = () => Math.random().toString(36).slice(2);
