@@ -1,2 +1,3 @@
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
 const removeDuplicates = (arr) => [...new Set(arr)];
-const randomString = () => Math.random().toString(36).slice(2);
+const merge = [...new Set([...a, ...b])];
