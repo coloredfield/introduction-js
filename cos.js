@@ -1,3 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-console.log( "A" - "B" + "2");
-const randomBoolean = () => Math.random() >= 0.5;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
