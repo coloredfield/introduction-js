@@ -1,3 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const removeDuplicates = (arr) => [...new Set(arr)];
-const merge = [...new Set([...a, ...b])];
+var arr1 = "john".split('');
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const repositoryRootPath = path.resolve(__dirname, '..');
