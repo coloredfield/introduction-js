@@ -1,1 +1,1 @@
-var arr3 = "jones".split('');
+function myAPITS(someString: string, someNum: number) { ... };
