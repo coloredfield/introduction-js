@@ -1,1 +1,2 @@
-function myAPITS(someString: string, someNum: number) { ... };
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
