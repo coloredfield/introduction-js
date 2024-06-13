@@ -1,2 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const isEven = (num) => num % 2 === 0;
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const isArray = (arr) => Array.isArray(arr);
