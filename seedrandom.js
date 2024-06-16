@@ -1,3 +1,1 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-var pattern = {};
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
