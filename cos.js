@@ -1,2 +1,1 @@
-const uniqueArray = arr => [...new Set(arr)];
-const toggleBool = () => (bool = !bool);
+console.log(1 +  -"1" + "2");
