@@ -1,1 +1,1 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
