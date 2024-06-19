@@ -1,2 +1,3 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const repositoryRootPath = path.resolve(__dirname, '..');
+const randomBoolean = () => Math.random() >= 0.5;
+console.log(false === '0');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
