@@ -1,3 +1,2 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-var pattern = {};
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const reversedString = str => str.split('').reverse().join('');
