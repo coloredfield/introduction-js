@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const reversedString = str => str.split('').reverse().join('');
