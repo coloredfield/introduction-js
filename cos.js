@@ -1,2 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-var pattern = {};
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
