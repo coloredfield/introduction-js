@@ -1,2 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-console.log(typeof typeof 1);
+console.log(1 +  -"1" + "2");
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
