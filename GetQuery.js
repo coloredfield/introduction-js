@@ -1,3 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-console.log(false === '0');
-const lastElement = arr => arr[arr.length - 1];
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
