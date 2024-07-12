@@ -1,3 +1,1 @@
-const results = await Promise.all(resultingPromises);
-const isEven = (num) => num % 2 === 0;
-console.log(typeof typeof 1);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
