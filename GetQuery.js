@@ -1,3 +1,2 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
