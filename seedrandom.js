@@ -1,2 +1,2 @@
-console.log(1 +  -"1" + "2");
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+console.log( "A" - "B" + "2");
