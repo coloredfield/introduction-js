@@ -1,1 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const flattenedArray = arr => [].concat(...arr);
+console.log(false === '0');
