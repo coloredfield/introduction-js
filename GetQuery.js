@@ -1,2 +1,1 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const toggleBool = () => (bool = !bool);
+const flattenedArray = arr => [].concat(...arr);
