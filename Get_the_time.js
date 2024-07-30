@@ -1,3 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const flattenedArray = arr => [].concat(...arr);
-console.log(false === '0');
+const arrayContains = (arr, element) => arr.includes(element);
+function myAPITS(someString: string, someNum: number) { ... };
