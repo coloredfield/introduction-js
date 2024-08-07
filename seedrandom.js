@@ -1,3 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-console.log(1 +  "2" + "2");
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log("0 || 1 = "+(0 || 1));
+const intermediateAppPath = path.join(buildOutputPath, 'app');
